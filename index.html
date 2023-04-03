@@ -1,74 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Movie Date Invitation</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
 		<h1>Movie Date Invitation</h1>
 		<nav>
 			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#movies">Movies</a></li>
-				<li><a href="#rsvp">RSVP</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<main>
-		<section id="about">
-			<h2>About</h2>
-			<p>Join me for a movie date night at the cinema!</p>
+		<section class="banner">
+            <div id="zurag">
+                <img src="/cute-bear-holding-love-heart-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated_138676-6408.avif " height="10%" width="10%" alt="Cute image">
+            </div>
+           
+			<h2>You're invited to a Movie Date</h2>
+			<p>Join me for a fun-filled movie date </p>
 		</section>
 
-		<section id="movies">
-			<h2>Movies</h2>
+		<section class="details">
+			<h3>When?</h3>
+			<p>Tuesday, 4th April at 5:00 PM</p>
+
+			<h3>Where?</h3>
+			<p>Urguu cinema</p>
+
+			<h3>What to Bring?</h3>
 			<ul>
-				<li>
-					<h3>Баян боол кино</h3>
-					<p>МУСК 
-                        Өргөө 2 IT парк 17:00 цагт
-                    </p>
-				</li>
-				<li>
-					<h3>John Wick</h3>
-					<p>Адал явдалт кино Өргөө 2 IT парк 17:40 цагт</p>
-				</li>
+				<li>Wear a warm clothes.</li>
+				<li>Your favorite movie recommendation.</li>
 			</ul>
-		</section>
-
-		<section id="rsvp">
-			<h2>RSVP</h2>
-			<form>
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name" required>
-
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email" required>
-
-				<label for="movie">Movie:</label>
-				<select id="movie" name="movie" required>
-					<option value="">Select a movie</option>
-					<option value="gatsby">Баян боол кино</option>
-					<option value="lalaland">John Wick</option>
-				</select>
-
-				<label for="num_tickets">Number of Tickets:</label>
-				<input type="number" id="num_tickets" name="num_tickets" min="1" max="10" required>
-
-				<label for="comments">Comments:</label>
-				<textarea id="comments" name="comments"></textarea>
-
-				<button type="submit">Submit</button>
-			</form>
 		</section>
 	</main>
 
 	<footer>
-		<p>&copy; 2023 Movie Date Invitation</p>
+		<p>&copy; 2023 Movie Date Invitation. All Rights Reserved by Buyanaa.</p>
 	</footer>
-
-	<script src="script.js"></script>
 </body>
 </html>
