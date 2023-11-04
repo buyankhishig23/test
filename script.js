@@ -7,5 +7,5 @@ document.addEventListener("DOMContentLoaded", function() {
         images[currentImageIndex].classList.remove("active");
         currentImageIndex = (currentImageIndex + 1) % totalImages;
         images[currentImageIndex].classList.add("active");
-    }, 2000); 
+    }, 3000); 
 });
