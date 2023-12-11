@@ -12,7 +12,7 @@ h1 {
     width: 150px;
     height: 50px;
     padding: 5px;
-    background-color: rgb(136, 133, 133);
+    background-color: rgb(255, 255, 255);
   
     position:absolute; right:45%; bottom:170px; width:80px; height:50px;
   }
